@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-python-app
-        image: anshuman123abc/mypythonapp:2
+        image: anshuman123abc/mypythonapp
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
